@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+main,
+nav,
+header {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    /*Permite a quebra dos elementos quando não couberem na largura da tela*/
+    gap: 10px;
+
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+    width: 1440px;
+}
+
+header {
+    height: 56px;
+    order: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    
+}
+
+main {
+    order: 2;
+    width: 1440px;
+    padding-top: 28px;
+    margin-left: 30px 10px 30px;
+    height: calc(100hv - 56px);
+    /* total da páfina menos o header*/
+    
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+.topBar {
+    order: -1;
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 0;
+    justify-content: space-between;
+    position: fixed; /*mesmo rolando a página ele fica no local determinado*/
+
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.topBar-Left {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 1000px;
+}
+
+.botao-inicio img {
+    width: 24px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.botao-inicio img:hover{ /*comando para destacar o clicavel*/
+    width: 43px;
+}
+
+.logo-youtube img {
+    width: 90px;
+    height: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.logo-youtube img:hover{
+    width: 100px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #c6c6c6;
+    border-radius: 40px 0 0 40px;
+    background-color: #fff;
+    padding: 0 4px 0 16px;
+    cursor: text;
+    position: relative;
+    box-shadow: inset 0 1px 2px #eee;
+    font: inherit;
+}
+
+.search button {
+    width: 64px;
+    height: 40px;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+}
+
+.search button:hover{
+    background-color: #d3d3d3;
+}
+
+.microfone {
+    background-color: #e7e5e5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding: 7px 5px;
+    /* para centralizar a imagem*/
+}
+
+.microfone:hover{
+    background-color: #d3d3d3;
+}
+.microfone img {
+    width: 27px;
+}
+
+/* ----------display top Right---------*/
+
+.topBar-Right {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 440px;
+    
+}
+
+.topBar-Right img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.avatar-meu img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.topBar-Right img:hover{
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    width: 45px;
+}
+
+/*---------   Tela central    ------------*/
+.video-central {
+    gap: 16px;
+    margin-left: 55px;
+    width: 900px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: baseline;
+    margin: auto;
+}
+
+
+.subtitulo-central {
+    font-size: 1.25rem;
+    font-weight: 900;
+    width: 871px;
+    color: #000000;
+
+    text-wrap: nowrap;
+}
+
+
+/*---------------  barra abaixo do video ----------------*/
+.menu-video-central {
+    display: flex;
+
+    width: 900px;
+    height: 42px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo-dio-menu{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+    gap: 12px;
+}
+
+.botoes-menu-central{
+    width: calc(900px - 240px);
+    display: flex;
+
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.menu-video-central img {
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.botoes-menu-central :hover{
+    background-color: #d3d3d3;
+
+}
+.menu-video-central p {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.logo-dio {
+    min-width: 0;
+    display: flex;    
+}
+
+.logo-dio img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+
+.texto-logo-dio {
+    width: 200px;
+    height: 40px;
+    gap: 1px;
+    padding: 5px 10px;
+    line-height: 0.688rem;
+    text-align: justify;
+
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+#texto-dio-logo2 {
+    font-weight: 400;
+    font-size: 0.775rem;
+    color: #515151;
+}
+
+
+.botao-inscrever {
+    width: 159px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 40px;
+    background: #CC0000;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.botao-inscrever:hover{
+    background-color: #e60303;
+}
+
+.positivo,
+.negativo,
+.compartilhar,
+.download {
+    background-color: #e7e5e5;
+    border-radius: 40px;
+    border-color: transparent;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    gap: 15px;
+
+    width: 150px;
+    height: 40px;
+}
+
+.negativo{
+    width: 80px;
+}
+
+.texto-contexto {
+    width: 900px;
+    height: 300px;
+    background-color: #e7e5e5;
+    border-radius: 12px;
+    border-color: transparent;
+    padding: 10px;
+    font-weight: 400;
+    line-height: 1.3rem;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.texto-explicacao {
+    width: 850px;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+
+/* ------- menu right ---------- */
+
+.sidebar-menu-right{ /*elemento pai*/
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 490px;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+    border: none;
+    
+    position: relative; /* esse item determina o espaço que o item pode caminhar*/
+
+}
+
+.menu-right-navigation{ /*elemento filho*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    left: 0;    
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.texto-video-sidebar { /* textos*/
+    width: 260px;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: column;     
+    text-align: justify;
+
+    margin-left: 210px;
+    margin-top: -215px;
+
+    padding: 3px 2px 2px 3px;
+    gap: 16px;
+    
+}
+
+
+.texto-video-sidebar h3{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.texto-video-sidebar p{
+    color: #515151;
+    font-size: 0.75rem;
+    line-height: 0.2rem;   
+}
+
+.video-sidebar{ /* videos*/
+    width: 200px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+   
+    gap: 4rem;    
+}
+
+
+
+/* ----Regra midia permite ajuste da tela aos diferente disposivos------*/
+@media only screen and (max-width:768px) {
+    body {
+        width: calc(100vh - 550px);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    header{
+        width: 100%;
+        height: calc(100% - 10px);
+    }
+
+    .video-central{
+        max-width: auto;
+        max-height: auto;
+    }
+
+    nav{
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+

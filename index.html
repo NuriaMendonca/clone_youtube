@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Desafio CSS - pagina Youtube</title>
+
+</head>
+
+<body>
+    <hearder>
+        <div class="topBar">
+            <div class="topBar-Left">
+                <span class="botao-inicio"><img src="./assets/images/menu-aberto.png">
+                </span>
+                <span class="logo-youtube"><img src="./assets/images/Youtube Logo (PNG1080p) - Vector69Com.png"
+                        alt=""></span>
+
+                <div class="search">
+                    <input type="text">
+                    <button>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21 21L16.65 16.65" stroke="black" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="microfone">
+                    <img src="./assets/images/voz.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="topBar-Right">
+                <span class="camera-inicio"><img src="./assets/images/videos.png" alt=""></span>
+                <span class="sino-inicio"> <img src="./assets/images/sino.png" alt=""></span>
+
+                <span class="avatar-meu"><img src="./assets/images/avatar_Nuria.png" alt=""></span>
+            </div>
+        </div>
+
+
+    </hearder>
+
+
+    <main>
+        <div class="video-central">
+            <div class="video-dio-principal"><br>
+                <iframe width="952" height="537" src="https://www.youtube.com/embed/fypvUT4vBsA?si=bepWwOVUNYmLoFkY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="subtitulo-central">
+                <p>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</p>
+            </div>
+            <br>
+
+            <div class="menu-video-central">
+                <div class="logo-dio-menu">
+                <div class="logo-dio">
+                    <img src="./assets/images/dio-logo.jpeg" alt="">
+                </div>
+                <div class="texto-logo-dio">
+                    <p id="texto-dio-logo"><strong>DIO</strong></p><br>
+                    <p id="texto-dio-logo2">200mil inscritos</p>
+                </div>
+                </div>
+
+                <div class="botoes-menu-central">
+                <div class="botao-inscrever">
+                    <Button class="botao-inscrever"><img class="sino-inscrever"
+                            src="./assets/images/sino-de-notificacao.png" alt="">Inscreva-se</Button>
+                </div>
+                <div class="positivo">
+                    <img src="./assets/images/gostar.png" alt="">
+                    <p>5 mil</p>
+                </div>
+                <div class="negativo">
+                    <img src="./assets/images/nao-gosto.png" alt="">
+                    <p></p>
+                </div>
+
+                <div class="compartilhar">
+                    <img src="./assets/images/compartilhar.png" alt="">
+                    <p>Compartilhar</p>
+                </div>
+                <div class="download">
+                    <img src="./assets/images/baixar.png" alt="">
+                    <p>Download</p>
+                </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="texto-contexto">
+                <div class="texto-abaixo-menu2">
+                    <p><strong>30.418 visualizações Transmitido ao vivo em 23 ago. de 2022</strong></p>
+                </div>
+
+                <div class="texto-explicacao">
+                    <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma
+                        landing page com a temática da série Stranger Things, a qual contará com a implementação de um
+                        theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sidebar-menu-right">
+            <nav class="menu-right-navigation">
+
+                <div class="video-sidebar" id="video-01">
+                    <iframe src="https://www.youtube.com/embed/SDe73ysJzhU?si=FZoXM_vDBzCfbDA3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>Live de Lançamento - Decola Tech Avanade 2025 </strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>18 mil visualizações</P>
+                    </div>
+                </div>
+
+                <div class="video-sidebar" id="video-02">
+                    <iframe src="https://www.youtube.com/embed/JKlrN7-lkZw?si=yLrLM5zomfXPE0j7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>Derrubando barreiras para realizar o sonho de ser Dev | Hired #21 </strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>7 mil visualizações</P>
+                    </div>
+                </div>
+        
+
+                    <div class="video-sidebar" id="video-03">
+                        <iframe src="https://www.youtube.com/embed/bsMXv-8bBeU?si=JR0FUTt-_oBEHtbT" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <div class="texto-video-sidebar">
+                            <h3><strong>Semana do Consumidor | DIO PRO Vitalício </strong></h3>
+                            <p>DigitalInovationOne</p>
+                            <P>4 mil visualizações</P>
+                        </div>
+                    </div>
+        
+
+                <div class="video-sidebar" id="video-04">
+                    <iframe src="https://www.youtube.com/embed/68W5nx8yQZU?si=xnLYk1ob5kgerjdc" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>Semana do Consumidor | DIO PRO Vitalício </strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>520 visualizações</P>
+                    </div>
+                </div>
+        
+
+                <div class="video-sidebar" id="video-05">
+                    <iframe src="https://www.youtube.com/embed/R6uKapXJWBI?si=RX8_kY8smCii0_D7" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>SQual linguagem de programação APRENDER PRIMEIRO em 2022? [GUIA DEV INICIANTE] | Getting
+                                Started #12 </strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>12 mil visualizações</P>
+                    </div>
+                </div>
+        
+                
+
+                <div class="video-sidebar" id="video-05">
+                    <iframe src="https://www.youtube.com/embed/_VrqfG1ezP0?si=yjxocE_ZhQ7OBKJw" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>Aprenda FLEXBOX CSS JOGANDO! | Getting Started #11</strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>998 visualizações</P>
+                    </div>
+                </div>
+        
+
+                <div class="video-sidebar" id="video-06">
+                    <iframe src="https://www.youtube.com/embed/0vJwxWwjm0c?si=bvV3Q7_g98i3iD92" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="texto-video-sidebar">
+                        <h3><strong>Criando seu card de Natal com HTML e CSS PURO! | Getting Started #3</strong></h3>
+                        <p>DigitalInovationOne</p>
+                        <P>1200 visualizações</P>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+       
+
+    </main>
+
+
+
+
+</body>
+
+</html>
