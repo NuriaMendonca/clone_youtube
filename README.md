@@ -10,7 +10,10 @@ Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional
 
 ## 🖥 Preview:
 ![Imagem do Projeto](assets/images/site_final_14.03.2025.png)
-- Venha ver como ficou o projeto acessando [aqui nesse link do GithubPages](**https://nuriamendonca.github.io/clone_youtube/**)
+<br>
+<br>
+
+https://nuriamendonca.github.io/clone_youtube/
 
 
 
