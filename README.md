@@ -1,6 +1,9 @@
 ## 👨‍💻 Desafio de Projeto CSS: Clonando a Página do Youtube com CSS
-Projeto de HMTL e CSS de Clone da página do Youtube utilizando Flexbox. <br>
+O desafio proposto durante o curso, consiste em criar um projeto utilizando HMTL e CSS colnando a página do Youtube utilizando Flexbox. <br>
 Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional DIO na Formação CSS Developer.
+Para as proporções e disposições do projeto, foi disponibilizado um layout no FIGMA.
+
+Realizei o projeto em 14/03/2025, com as propoções novas do youtube atual.
 
 ## 💻 Tecnologias usadas:
 <div style="display: inline_block">
@@ -13,11 +16,6 @@ Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional
 <br>
 <br>
 
+Acesse a página pelo link:
 https://nuriamendonca.github.io/clone_youtube/
-
-
-
-## 🤔 O que foi feito nesse projeto:
-- Crei um clone da página do Youtube utilizando os conceitos de Flexbox;
-- Neste projeto segui as orientações do arquivo do Figma disponibilizado no curso.
 
